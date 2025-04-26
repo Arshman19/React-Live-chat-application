@@ -10,7 +10,7 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = 'localhost:5000';
+const ENDPOINT = 'https://react-live-chat-application-backend.onrender.com';
 let socket;
 
 const Chat = ({ location }) => {
